@@ -38,11 +38,11 @@
 
         nav {
             bindings = <
-&kp F1          &kp F2         &kp F3        &kp F4        &kp F5        &kp F6                                  &kp F7           &kp F8          &kp F9          &kp F10          &kp F11  &kp F12
-&trans          &kp LG(SPACE)  &kp LC(F)     &trans        &trans        &trans                                  &trans           &trans          &kp UP_ARROW    &trans           &trans   &trans
-&kp LEFT_SHIFT  &kp LC(Z)      &kp LC(X)     &kp LC(C)     &kp LC(V)     &trans                                  &trans           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans   &trans
-&trans          &trans         &trans        &kp CAPS      &trans        &trans  &trans    &kp LG(LS(NUMBER_4))  &kp PRINTSCREEN  &trans          &trans          &trans           &trans   &trans
-                               &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_ALT  &trans  &trans    &trans                &mo 3            &trans          &trans          &trans
+&kp F1          &kp F2         &kp F3     &kp F4        &kp F5        &kp F6                                  &kp F7           &kp F8          &kp F9          &kp F10          &kp F11  &kp F12
+&trans          &kp LC(SPACE)  &kp LG(F)  &trans        &trans        &trans                                  &trans           &trans          &kp UP_ARROW    &trans           &trans   &trans
+&kp LEFT_SHIFT  &kp LG(Z)      &kp LG(X)  &kp LG(C)     &kp LG(V)     &trans                                  &trans           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans   &trans
+&kp LEFT_GUI    &trans         &trans     &kp CAPS      &trans        &trans  &trans    &kp LG(LS(NUMBER_4))  &kp PRINTSCREEN  &trans          &trans          &trans           &trans   &trans
+                               &kp LCTRL  &kp LEFT_ALT  &kp LEFT_ALT  &trans  &trans    &trans                &mo 3            &trans          &trans          &trans
             >;
 
             display-name = "Navigation";
@@ -50,11 +50,11 @@
 
         sym {
             bindings = <
-&trans  &trans    &kp AT    &kp DLLR   &kp HASH  &trans                       &trans     &trans    &kp CARET  &trans    &trans    &trans
-&trans  &trans    &kp LT    &kp EQUAL  &kp GT    &kp GRAVE                    &trans     &kp LBKT  &kp UNDER  &kp RBKT  &trans    &trans
-&trans  &kp BSLH  &kp LPAR  &kp MINUS  &kp RPAR  &kp PLUS                     &kp PRCNT  &kp LBRC  &kp SEMI   &kp RBRC  &kp EXCL  &trans
-&trans  &trans    &kp STAR  &kp COLON  &kp FSLH  &trans     &trans    &trans  &trans     &kp PIPE  &kp TILDE  &kp AMPS  &trans    &trans
-                  &trans    &trans     &trans    &mo 3      &trans    &trans  &trans     &trans    &trans     &trans
+&trans        &trans  &kp AT         &kp DLLR      &kp HASH  &trans                               &trans                &trans                 &kp CARET      &trans            &trans           &trans
+&trans        &trans  &kp LS(MINUS)  &kp LS(SEMI)  &kp GT    &kp DOUBLE_QUOTES                    &kp BACKSLASH         &kp PIPE               &kp MINUS      &kp LPAR          &kp RPAR         &trans
+&trans        &trans  &trans         &trans        &trans    &kp APOS                             &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp EQUAL      &kp LEFT_BRACE    &kp RIGHT_BRACE  &trans
+&kp LEFT_GUI  &trans  &trans         &trans        &trans    &trans             &trans    &trans  &trans                &kp COLON              &kp LESS_THAN  &kp GREATER_THAN  &trans           &trans
+                      &kp LCTRL      &trans        &trans    &mo 3              &trans    &trans  &trans                &trans                 &trans         &trans
             >;
 
             display-name = "Symbols";
