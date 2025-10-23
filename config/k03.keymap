@@ -50,11 +50,11 @@
 
         sym {
             bindings = <
-&trans        &trans              &kp AT         &kp DLLR      &kp HASH  &trans                               &trans            &trans             &kp CARET      &trans            &trans           &trans
-&trans        &trans              &kp LS(MINUS)  &kp LS(SEMI)  &kp GT    &kp DOUBLE_QUOTES                    &kp BACKSLASH     &kp PIPE           &kp MINUS      &kp LPAR          &kp RPAR         &trans
-&trans        &trans              &trans         &trans        &trans    &kp APOS                             &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL      &kp LEFT_BRACE    &kp RIGHT_BRACE  &trans
-&kp LEFT_GUI  &kp LC(LA(DELETE))  &trans         &trans        &trans    &trans             &trans    &trans  &trans            &kp COLON          &kp LESS_THAN  &kp GREATER_THAN  &trans           &trans
-                                  &kp LCTRL      &trans        &trans    &mo 3              &trans    &trans  &trans            &trans             &trans         &trans
+&trans        &trans              &kp AT         &kp DLLR      &kp HASH  &trans                               &trans          &trans           &kp CARET      &trans            &trans             &trans
+&trans        &trans              &kp LS(MINUS)  &kp LS(SEMI)  &kp GT    &kp DOUBLE_QUOTES                    &kp BACKSLASH   &kp PIPE         &kp MINUS      &kp LPAR          &kp RPAR           &trans
+&trans        &trans              &trans         &trans        &trans    &kp APOS                             &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&kp LEFT_GUI  &kp LC(LA(DELETE))  &trans         &trans        &trans    &kp GRAVE          &trans    &trans  &trans          &kp COLON        &kp LESS_THAN  &kp GREATER_THAN  &trans             &trans
+                                  &kp LCTRL      &trans        &trans    &mo 3              &trans    &trans  &trans          &trans           &trans         &trans
             >;
 
             display-name = "Symbols";
