@@ -38,11 +38,11 @@
 
         nav {
             bindings = <
-&kp F1          &kp F2         &kp F3     &kp F4        &kp F5        &kp F6                                         &kp F7           &kp F8          &kp F9          &kp F10          &kp F11  &kp F12
-&trans          &kp LC(SPACE)  &kp LG(F)  &trans        &trans        &trans                                         &trans           &trans          &kp UP_ARROW    &trans           &trans   &trans
-&kp LEFT_SHIFT  &kp LG(Z)      &kp LG(X)  &kp LG(C)     &kp LG(V)     &kp LG(D)                                      &trans           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans   &trans
-&kp LEFT_GUI    &trans         &trans     &kp CAPS      &trans        &trans     &kp DELETE    &kp LG(LS(NUMBER_4))  &kp PRINTSCREEN  &trans          &trans          &trans           &trans   &trans
-                               &kp LCTRL  &kp LEFT_ALT  &kp LEFT_ALT  &trans     &trans        &kp LA(SPACE)         &mo 3            &trans          &trans          &trans
+&kp F1          &kp F2     &kp F3     &kp F4        &kp F5        &kp F6                                         &kp F7           &kp F8          &kp F9          &kp F10          &kp F11  &kp F12
+&trans          &kp GLOBE  &kp LG(F)  &trans        &trans        &kp LC(Q)                                      &trans           &trans          &kp UP_ARROW    &trans           &trans   &trans
+&kp LEFT_SHIFT  &kp LG(Z)  &kp LG(X)  &kp LG(C)     &kp LG(V)     &kp LG(D)                                      &trans           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans   &trans
+&kp LEFT_GUI    &trans     &trans     &kp CAPS      &trans        &trans     &kp DELETE    &kp LG(LS(NUMBER_4))  &kp PRINTSCREEN  &trans          &trans          &trans           &trans   &trans
+                           &kp LCTRL  &kp LEFT_ALT  &kp LEFT_ALT  &trans     &trans        &kp LA(SPACE)         &mo 3            &trans          &trans          &trans
             >;
 
             display-name = "Navigation";
